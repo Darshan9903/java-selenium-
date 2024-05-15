@@ -27,6 +27,7 @@ public class Demo3Signup {
 		selectMonth.selectByVisibleText("Apr");
 		Select  selectYear = new Select(wd.findElement(By.id("year")));
 		selectYear.selectByVisibleText("1970");
+		
 		  
 	}
 

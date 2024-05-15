@@ -35,6 +35,7 @@ public class Task2 {
 		//System.out.println(windowHandle);
 //		wd.findElement(By.id("agree")).click();
 		wd.findElement(By.xpath("//input[@type='button']")).click();
+		
 		 Alert alert = wd.switchTo().alert();
 		 System.out.println(alert);
 		System.out.println("OK");
